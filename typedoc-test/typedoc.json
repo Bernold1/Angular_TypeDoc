@@ -1,4 +1,8 @@
 {
+  "inputFiles": ["./src"],
+  "exclude": ["src/test.ts", "**/*.spec.ts"],
+  "tsconfig": "./tsconfig.app.json",
   "mode": "file",
-  "out": "docs"
+  "out": "docs",
+  "theme": "minimal"
 }
